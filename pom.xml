@@ -10,59 +10,25 @@
         <version>9</version>
     </parent>
 
-    <groupId>com.github.mpusher</groupId>
-    <artifactId>mpush</artifactId>
+    <groupId>com.gupao.edu.vip</groupId>
+    <artifactId>lion</artifactId>
     <packaging>pom</packaging>
-    <version>0.8.1</version>
-    <name>mpush</name>
-    <description>MPUSH消息推送系统</description>
-    <url>https://github.com/mpusher/mpush</url>
-
-    <licenses>
-        <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-
-    <scm>
-        <tag>v${project.version}</tag>
-        <url>https://github.com/mpusher/mpush</url>
-        <connection>scm:git:git://github.com/mpusher/mpush.git</connection>
-        <developerConnection>scm:git:ssh://github.com/mpusher/mpush.git</developerConnection>
-    </scm>
-
-    <issueManagement>
-        <system>GitHub Issues</system>
-        <url>https://github.com/mpusher/mpush/issues</url>
-    </issueManagement>
-
-    <organization>
-        <name>MPusher, Inc.</name>
-        <url>https://mpusher.io</url>
-    </organization>
-
-    <developers>
-        <developer>
-            <name>夜色</name>
-            <email>ohun@live.cn</email>
-            <organization>mpusher</organization>
-        </developer>
-    </developers>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>lion</name>
+    <description>Lion消息推送系统</description>
 
     <modules>
-        <module>mpush-api</module>
-        <module>mpush-boot</module>
-        <module>mpush-core</module>
-        <module>mpush-tools</module>
-        <module>mpush-netty</module>
-        <module>mpush-common</module>
-        <module>mpush-client</module>
-        <module>mpush-test</module>
-        <module>mpush-monitor</module>
-        <module>mpush-zk</module>
-        <module>mpush-cache</module>
+        <module>lion-api</module>
+        <module>lion-boot</module>
+        <module>lion-core</module>
+        <module>lion-tools</module>
+        <module>lion-network</module>
+        <module>lion-common</module>
+        <module>lion-client</module>
+        <module>lion-test</module>
+        <module>lion-monitor</module>
+        <module>lion-registion</module>
+        <module>lion-cache</module>
     </modules>
 
     <properties>
@@ -122,57 +88,57 @@
             <!-- ======================================== -->
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-test</artifactId>
+                <artifactId>lion-test</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-api</artifactId>
+                <artifactId>lion-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-tools</artifactId>
+                <artifactId>lion-tools</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-common</artifactId>
+                <artifactId>lion-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-netty</artifactId>
+                <artifactId>lion-network</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-core</artifactId>
+                <artifactId>lion-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-client</artifactId>
+                <artifactId>lion-client</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-monitor</artifactId>
+                <artifactId>lion-monitor</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-boot</artifactId>
+                <artifactId>lion-boot</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-zk</artifactId>
+                <artifactId>lion-registion</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>mpush-cache</artifactId>
+                <artifactId>lion-cache</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!-- ================================================= -->

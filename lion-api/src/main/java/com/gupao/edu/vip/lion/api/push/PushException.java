@@ -1,0 +1,21 @@
+package com.gupao.edu.vip.lion.api.push;
+
+/**
+ * Created by yxx on 2016/5/28.
+ *
+ * @author ohun@live.cn (夜色)
+ */
+public class PushException extends RuntimeException {
+
+    public PushException(Throwable cause) {
+        super(cause);
+    }
+
+    public PushException(String message) {
+        super(message);
+    }
+
+    public PushException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}

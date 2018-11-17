@@ -1,0 +1,426 @@
+2018-08-29 01:01:08.552 - [lion-t-2-monitor] INFO  - lion.monitor.log - {"results":{"jvm-gc":{"fullGcCollectionCount":1,"yongGcCollectionTime":45,"spanYongGcCollectionTime":0,"spanFullGcCollectionCount":0,"yongGcCollectionCount":3,"spanYongGcCollectionCount":0,"fullGcCollectionTime":30,"spanFullGcCollectionTime":0},"jvm-memory":{"heapMemoryMax":3817865216,"survivorMax":11010048,"survivorInit":11010048,"heapMemoryUsed":83881792,"oldGenInit":179306496,"nonHeapMemoryCommitted":36175872,"heapMemoryCommitted":187170816,"edenSpaceUsed":37338840,"nonHeapMemoryUsed":35103152,"oldGenUsed":42454752,"permGenCommitted":0,"oldGenCommitted":109051904,"heapMemoryInit":268435456,"survivorUsed":4088200,"permGenInit":0,"permGenUsed":0,"edenSpaceMax":1409286144,"nonHeapMemoryMax":-1,"nonHeapMemoryInit":2555904,"permGenMax":0,"edenSpaceCommitted":67108864,"survivorCommitted":11010048,"oldGenMax":2863661056,"edenSpaceInit":67108864},"jvm-thread":{"threadCount":54,"daemonThreadCount":18,"totalStartedThreadCount":74,"deadLockedThreadCount":0},"jvm-thread-pool":{"event-bus":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"conn-worker":{"poolSize(workThread)":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":16},"mq":{"corePoolSize":1,"poolSize(workThread)":0,"maxPoolSize":4,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"ack-timer":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":2147483647,"queueSize(blockedTask)":0,"activeCount(workingThread)":0}},"jvm-info":{"totalMemory":"178m","load":2.51220703125,"pid":"8706","freeMemory":"98m","maxMemory":"3641m"}},"timestamp":1535475668237}
+2018-08-29 01:01:08.243 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7203644ms for sessionid 0x100003d9da70038
+2018-08-29 01:01:08.879 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 01:01:08.882 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 01:01:08.883 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 01:01:08.883 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 01:01:08.884 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: SUSPENDED
+2018-08-29 01:01:08.885 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 01:01:08.885 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=SUSPENDED, isConnected=false
+2018-08-29 01:01:08.885 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 01:01:08.886 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2018-08-29 01:01:10.252 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 01:01:10.252 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x100003d9da70038 has expired
+2018-08-29 01:01:10.253 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 01:01:10.253 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 01:01:10.253 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 01:01:10.253 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: LOST
+2018-08-29 01:01:10.253 - [main-EventThread] WARN  - org.apache.curator.ConnectionState - Session expired event received
+2018-08-29 01:01:10.253 - [main-EventThread] DEBUG - org.apache.curator.ConnectionState - reset
+2018-08-29 01:01:10.253 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=LOST, isConnected=false
+2018-08-29 01:01:10.253 - [main-EventThread] DEBUG - org.apache.zookeeper.ZooKeeper - Close called on already closed client
+2018-08-29 01:01:10.253 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_LOST, data=null}
+2018-08-29 01:01:10.253 - [main-EventThread] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@4f74980d
+2018-08-29 01:01:10.255 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 01:01:10.255 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 01:01:10.258 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: RECONNECTED
+2018-08-29 01:01:10.263 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=RECONNECTED, isConnected=true
+2018-08-29 01:01:10.264 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.264 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2018-08-29 01:01:10.264 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.265 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.265 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs], context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.265 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=8,8,1535380638185,1535380638185,0,49,0,0,0,1,195
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.265 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6ece000d-7975-4586-8a94-7340c3458067], context=null, stat=8,8,1535380638185,1535380638185,0,49,0,0,0,1,195
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.265 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=null, context=null, stat=195,195,1535475670262,1535475670262,0,0,0,72057858675900475,35,0,195
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.265 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=195,195,1535475670262,1535475670262,0,0,0,72057858675900475,35,0,195
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-08-29 01:01:10.266 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=[], context=null, stat=195,195,1535475670262,1535475670262,0,0,0,72057858675900475,35,0,195
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.266 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=5,5,1535380638175,1535380638175,0,49,0,0,0,1,194
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.266 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[7eacaec6-2ead-439d-a7b7-88218d09676e], context=null, stat=5,5,1535380638175,1535380638175,0,49,0,0,0,1,194
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.266 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=null, context=null, stat=194,194,1535475670261,1535475670261,0,0,0,72057858675900475,56,0,194
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.267 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=194,194,1535475670261,1535475670261,0,0,0,72057858675900475,56,0,194
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-08-29 01:01:10.267 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=[], context=null, stat=194,194,1535475670261,1535475670261,0,0,0,72057858675900475,56,0,194
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 01:01:10.267 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-08-29 01:01:10.348 - [lion-gateway-work-5-6] INFO  - lion.conn.log - client connected conn=[id: 0x4a7b5bff, L:/192.168.1.12:3001 - R:/192.168.1.12:57796]
+2018-08-29 01:01:10.348 - [lion-gateway-work-5-4] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0x96b62c82, L:/192.168.1.12:3001 ! R:/192.168.1.12:57764], context=, status=2, lastReadTime=1535468455831, lastWriteTime=0]
+2018-08-29 01:01:11.034 - [lion-gateway-work-5-5] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0xdede937e, L:/192.168.1.12:3001 ! R:/192.168.1.12:57765], context=, status=2, lastReadTime=1535468455831, lastWriteTime=0]
+2018-08-29 01:01:11.042 - [lion-gateway-work-5-7] INFO  - lion.conn.log - client connected conn=[id: 0x7ff579b5, L:/192.168.1.12:3001 - R:/192.168.1.12:57800]
+2018-08-29 03:01:48.193 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7203851ms for sessionid 0x100003d9da7003b
+2018-08-29 03:01:48.599 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 03:01:48.600 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 03:01:48.600 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 03:01:48.600 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 03:01:48.602 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: SUSPENDED
+2018-08-29 03:01:48.604 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=SUSPENDED, isConnected=false
+2018-08-29 03:01:48.604 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2018-08-29 03:01:48.605 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 03:01:48.605 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 03:01:50.041 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x100003d9da7003b has expired
+2018-08-29 03:01:50.042 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 03:01:50.042 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 03:01:50.042 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 03:01:50.042 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 03:01:50.042 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: LOST
+2018-08-29 03:01:50.042 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=LOST, isConnected=false
+2018-08-29 03:01:50.042 - [main-EventThread] WARN  - org.apache.curator.ConnectionState - Session expired event received
+2018-08-29 03:01:50.042 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_LOST, data=null}
+2018-08-29 03:01:50.042 - [main-EventThread] DEBUG - org.apache.curator.ConnectionState - reset
+2018-08-29 03:01:50.042 - [main-EventThread] DEBUG - org.apache.zookeeper.ZooKeeper - Close called on already closed client
+2018-08-29 03:01:50.042 - [main-EventThread] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@4f74980d
+2018-08-29 03:01:50.046 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 03:01:50.051 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 03:01:50.055 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: RECONNECTED
+2018-08-29 03:01:50.063 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=RECONNECTED, isConnected=true
+2018-08-29 03:01:50.064 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.065 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2018-08-29 03:01:50.065 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.066 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.066 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs], context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.066 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=8,8,1535380638185,1535380638185,0,51,0,0,0,1,205
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.066 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6ece000d-7975-4586-8a94-7340c3458067], context=null, stat=8,8,1535380638185,1535380638185,0,51,0,0,0,1,205
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.066 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=null, context=null, stat=205,205,1535482910063,1535482910063,0,0,0,72057858675900479,35,0,205
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.066 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=205,205,1535482910063,1535482910063,0,0,0,72057858675900479,35,0,205
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-08-29 03:01:50.066 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=[], context=null, stat=205,205,1535482910063,1535482910063,0,0,0,72057858675900479,35,0,205
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.067 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=5,5,1535380638175,1535380638175,0,51,0,0,0,1,204
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.067 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[7eacaec6-2ead-439d-a7b7-88218d09676e], context=null, stat=5,5,1535380638175,1535380638175,0,51,0,0,0,1,204
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.067 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=null, context=null, stat=204,204,1535482910061,1535482910061,0,0,0,72057858675900479,56,0,204
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.068 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=204,204,1535482910061,1535482910061,0,0,0,72057858675900479,56,0,204
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-08-29 03:01:50.068 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=[], context=null, stat=204,204,1535482910061,1535482910061,0,0,0,72057858675900479,56,0,204
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 03:01:50.068 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-08-29 03:01:50.073 - [lion-gateway-work-5-6] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0x4a7b5bff, L:/192.168.1.12:3001 ! R:/192.168.1.12:57796], context=, status=2, lastReadTime=1535475670348, lastWriteTime=0]
+2018-08-29 03:01:50.081 - [lion-gateway-work-5-8] INFO  - lion.conn.log - client connected conn=[id: 0xf73a159b, L:/192.168.1.12:3001 - R:/192.168.1.12:57837]
+2018-08-29 03:01:50.118 - [lion-gateway-work-5-7] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0x7ff579b5, L:/192.168.1.12:3001 ! R:/192.168.1.12:57800], context=, status=2, lastReadTime=1535475671042, lastWriteTime=0]
+2018-08-29 03:01:50.131 - [lion-gateway-work-5-9] INFO  - lion.conn.log - client connected conn=[id: 0x3bbb2613, L:/192.168.1.12:3001 - R:/192.168.1.12:57840]
+2018-08-29 03:02:02.514 - [lion-t-2-monitor] INFO  - lion.monitor.log - {"results":{"jvm-gc":{"fullGcCollectionCount":1,"yongGcCollectionTime":45,"spanYongGcCollectionTime":0,"spanFullGcCollectionCount":0,"yongGcCollectionCount":3,"spanYongGcCollectionCount":0,"fullGcCollectionTime":30,"spanFullGcCollectionTime":0},"jvm-memory":{"heapMemoryMax":3817865216,"survivorMax":11010048,"survivorInit":11010048,"heapMemoryUsed":86450064,"oldGenInit":179306496,"nonHeapMemoryCommitted":36175872,"heapMemoryCommitted":187170816,"edenSpaceUsed":39907112,"nonHeapMemoryUsed":35150760,"oldGenUsed":42454752,"permGenCommitted":0,"oldGenCommitted":109051904,"heapMemoryInit":268435456,"survivorUsed":4088200,"permGenInit":0,"permGenUsed":0,"edenSpaceMax":1409286144,"nonHeapMemoryMax":-1,"nonHeapMemoryInit":2555904,"permGenMax":0,"edenSpaceCommitted":67108864,"survivorCommitted":11010048,"oldGenMax":2863661056,"edenSpaceInit":67108864},"jvm-thread":{"threadCount":57,"daemonThreadCount":21,"totalStartedThreadCount":81,"deadLockedThreadCount":0},"jvm-thread-pool":{"event-bus":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"conn-worker":{"poolSize(workThread)":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":16},"mq":{"corePoolSize":1,"poolSize(workThread)":0,"maxPoolSize":4,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"ack-timer":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":2147483647,"queueSize(blockedTask)":0,"activeCount(workingThread)":0}},"jvm-info":{"totalMemory":"178m","load":7.1181640625,"pid":"8706","freeMemory":"96m","maxMemory":"3641m"}},"timestamp":1535482922501}
+2018-08-29 05:02:28.193 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7204148ms for sessionid 0x100003d9da7003f
+2018-08-29 05:02:28.420 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 05:02:28.472 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 05:02:28.473 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 05:02:28.473 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 05:02:28.476 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: SUSPENDED
+2018-08-29 05:02:28.480 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 05:02:28.480 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 05:02:28.480 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=SUSPENDED, isConnected=false
+2018-08-29 05:02:28.480 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2018-08-29 05:02:30.117 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x100003d9da7003f has expired
+2018-08-29 05:02:30.117 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 05:02:30.118 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 05:02:30.118 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 05:02:30.118 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 05:02:30.118 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: LOST
+2018-08-29 05:02:30.118 - [main-EventThread] WARN  - org.apache.curator.ConnectionState - Session expired event received
+2018-08-29 05:02:30.118 - [main-EventThread] DEBUG - org.apache.curator.ConnectionState - reset
+2018-08-29 05:02:30.119 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=LOST, isConnected=false
+2018-08-29 05:02:30.119 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_LOST, data=null}
+2018-08-29 05:02:30.119 - [main-EventThread] DEBUG - org.apache.zookeeper.ZooKeeper - Close called on already closed client
+2018-08-29 05:02:30.119 - [main-EventThread] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@4f74980d
+2018-08-29 05:02:30.122 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 05:02:30.122 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 05:02:30.128 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: RECONNECTED
+2018-08-29 05:02:30.139 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=RECONNECTED, isConnected=true
+2018-08-29 05:02:30.140 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2018-08-29 05:02:30.140 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.141 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.141 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.141 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs], context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.141 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=8,8,1535380638185,1535380638185,0,53,0,0,0,1,215
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.142 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6ece000d-7975-4586-8a94-7340c3458067], context=null, stat=8,8,1535380638185,1535380638185,0,53,0,0,0,1,215
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.142 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=null, context=null, stat=215,215,1535490150138,1535490150138,0,0,0,72057858675900483,35,0,215
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.142 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=215,215,1535490150138,1535490150138,0,0,0,72057858675900483,35,0,215
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-08-29 05:02:30.142 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=[], context=null, stat=215,215,1535490150138,1535490150138,0,0,0,72057858675900483,35,0,215
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.143 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=5,5,1535380638175,1535380638175,0,53,0,0,0,1,214
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.143 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[7eacaec6-2ead-439d-a7b7-88218d09676e], context=null, stat=5,5,1535380638175,1535380638175,0,53,0,0,0,1,214
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.143 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=null, context=null, stat=214,214,1535490150129,1535490150129,0,0,0,72057858675900483,56,0,214
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.143 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=214,214,1535490150129,1535490150129,0,0,0,72057858675900483,56,0,214
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-08-29 05:02:30.143 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=[], context=null, stat=214,214,1535490150129,1535490150129,0,0,0,72057858675900483,56,0,214
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 05:02:30.143 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-08-29 05:02:30.211 - [lion-gateway-work-5-9] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0x3bbb2613, L:/192.168.1.12:3001 ! R:/192.168.1.12:57840], context=, status=2, lastReadTime=1535482910131, lastWriteTime=0]
+2018-08-29 05:02:30.266 - [lion-gateway-work-5-10] INFO  - lion.conn.log - client connected conn=[id: 0x8de4a6f5, L:/192.168.1.12:3001 - R:/192.168.1.12:57877]
+2018-08-29 05:02:30.371 - [lion-gateway-work-5-8] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0xf73a159b, L:/192.168.1.12:3001 ! R:/192.168.1.12:57837], context=, status=2, lastReadTime=1535482910081, lastWriteTime=0]
+2018-08-29 05:02:30.379 - [lion-gateway-work-5-11] INFO  - lion.conn.log - client connected conn=[id: 0xe767fed3, L:/192.168.1.12:3001 - R:/192.168.1.12:57880]
+2018-08-29 05:02:58.824 - [lion-t-2-monitor] INFO  - lion.monitor.log - {"results":{"jvm-gc":{"fullGcCollectionCount":1,"yongGcCollectionTime":45,"spanYongGcCollectionTime":0,"spanFullGcCollectionCount":0,"yongGcCollectionCount":3,"spanYongGcCollectionCount":0,"fullGcCollectionTime":30,"spanFullGcCollectionTime":0},"jvm-memory":{"heapMemoryMax":3817865216,"survivorMax":11010048,"survivorInit":11010048,"heapMemoryUsed":87944960,"oldGenInit":179306496,"nonHeapMemoryCommitted":36306944,"heapMemoryCommitted":187170816,"edenSpaceUsed":41402008,"nonHeapMemoryUsed":35277368,"oldGenUsed":42454752,"permGenCommitted":0,"oldGenCommitted":109051904,"heapMemoryInit":268435456,"survivorUsed":4088200,"permGenInit":0,"permGenUsed":0,"edenSpaceMax":1409286144,"nonHeapMemoryMax":-1,"nonHeapMemoryInit":2555904,"permGenMax":0,"edenSpaceCommitted":67108864,"survivorCommitted":11010048,"oldGenMax":2863661056,"edenSpaceInit":67108864},"jvm-thread":{"threadCount":57,"daemonThreadCount":21,"totalStartedThreadCount":83,"deadLockedThreadCount":0},"jvm-thread-pool":{"event-bus":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"conn-worker":{"poolSize(workThread)":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":16},"mq":{"corePoolSize":1,"poolSize(workThread)":0,"maxPoolSize":4,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"ack-timer":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":2147483647,"queueSize(blockedTask)":0,"activeCount(workingThread)":0}},"jvm-info":{"totalMemory":"178m","load":4.33154296875,"pid":"8706","freeMemory":"94m","maxMemory":"3641m"}},"timestamp":1535490178812}
+2018-08-29 07:03:08.197 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7204274ms for sessionid 0x100003d9da70043
+2018-08-29 07:03:08.487 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 07:03:08.488 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 07:03:08.490 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 07:03:08.490 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 07:03:08.491 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: SUSPENDED
+2018-08-29 07:03:08.494 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 07:03:08.494 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 07:03:08.493 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=SUSPENDED, isConnected=false
+2018-08-29 07:03:08.495 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2018-08-29 07:03:10.028 - [lion-gateway-work-5-10] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0x8de4a6f5, L:/192.168.1.12:3001 ! R:/192.168.1.12:57877], context=, status=2, lastReadTime=1535490150266, lastWriteTime=0]
+2018-08-29 07:03:10.348 - [lion-gateway-work-5-11] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0xe767fed3, L:/192.168.1.12:3001 ! R:/192.168.1.12:57880], context=, status=2, lastReadTime=1535490150380, lastWriteTime=0]
+2018-08-29 07:03:10.385 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x100003d9da70043 has expired
+2018-08-29 07:03:10.385 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 07:03:10.386 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 07:03:10.387 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 07:03:10.387 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 07:03:10.387 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: LOST
+2018-08-29 07:03:10.387 - [main-EventThread] WARN  - org.apache.curator.ConnectionState - Session expired event received
+2018-08-29 07:03:10.387 - [main-EventThread] DEBUG - org.apache.curator.ConnectionState - reset
+2018-08-29 07:03:10.387 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=LOST, isConnected=false
+2018-08-29 07:03:10.387 - [main-EventThread] DEBUG - org.apache.zookeeper.ZooKeeper - Close called on already closed client
+2018-08-29 07:03:10.387 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_LOST, data=null}
+2018-08-29 07:03:10.387 - [main-EventThread] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@4f74980d
+2018-08-29 07:03:10.389 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 07:03:10.389 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 07:03:10.394 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: RECONNECTED
+2018-08-29 07:03:10.399 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=RECONNECTED, isConnected=true
+2018-08-29 07:03:10.400 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2018-08-29 07:03:10.400 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.402 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.402 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.403 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs], context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.403 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=8,8,1535380638185,1535380638185,0,55,0,0,0,1,227
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.403 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6ece000d-7975-4586-8a94-7340c3458067], context=null, stat=8,8,1535380638185,1535380638185,0,55,0,0,0,1,227
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.403 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=null, context=null, stat=227,227,1535497390398,1535497390398,0,0,0,72057858675900489,35,0,227
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.404 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=227,227,1535497390398,1535497390398,0,0,0,72057858675900489,35,0,227
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-08-29 07:03:10.404 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=[], context=null, stat=227,227,1535497390398,1535497390398,0,0,0,72057858675900489,35,0,227
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.410 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=5,5,1535380638175,1535380638175,0,55,0,0,0,1,226
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.411 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[7eacaec6-2ead-439d-a7b7-88218d09676e], context=null, stat=5,5,1535380638175,1535380638175,0,55,0,0,0,1,226
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.411 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=null, context=null, stat=226,226,1535497390396,1535497390396,0,0,0,72057858675900489,56,0,226
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.411 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=226,226,1535497390396,1535497390396,0,0,0,72057858675900489,56,0,226
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-08-29 07:03:10.411 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=[], context=null, stat=226,226,1535497390396,1535497390396,0,0,0,72057858675900489,56,0,226
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 07:03:10.411 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-08-29 07:03:10.418 - [lion-gateway-work-5-12] INFO  - lion.conn.log - client connected conn=[id: 0x435687fd, L:/192.168.1.12:3001 - R:/192.168.1.12:57921]
+2018-08-29 07:03:10.423 - [lion-gateway-work-5-13] INFO  - lion.conn.log - client connected conn=[id: 0x04af385b, L:/192.168.1.12:3001 - R:/192.168.1.12:57922]
+2018-08-29 09:03:48.196 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 7204257ms for sessionid 0x100003d9da70049
+2018-08-29 09:03:48.523 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 09:03:48.529 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 09:03:48.529 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 09:03:48.529 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 09:03:48.530 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: SUSPENDED
+2018-08-29 09:03:48.532 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 09:03:48.533 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 09:03:48.534 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=SUSPENDED, isConnected=false
+2018-08-29 09:03:48.535 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2018-08-29 09:03:49.795 - [lion-t-2-monitor] INFO  - lion.monitor.log - {"results":{"jvm-gc":{"fullGcCollectionCount":1,"yongGcCollectionTime":45,"spanYongGcCollectionTime":0,"spanFullGcCollectionCount":0,"yongGcCollectionCount":3,"spanYongGcCollectionCount":0,"fullGcCollectionTime":30,"spanFullGcCollectionTime":0},"jvm-memory":{"heapMemoryMax":3817865216,"survivorMax":11010048,"survivorInit":11010048,"heapMemoryUsed":88912928,"oldGenInit":179306496,"nonHeapMemoryCommitted":36306944,"heapMemoryCommitted":187170816,"edenSpaceUsed":42369976,"nonHeapMemoryUsed":35315520,"oldGenUsed":42454752,"permGenCommitted":0,"oldGenCommitted":109051904,"heapMemoryInit":268435456,"survivorUsed":4088200,"permGenInit":0,"permGenUsed":0,"edenSpaceMax":1409286144,"nonHeapMemoryMax":-1,"nonHeapMemoryInit":2555904,"permGenMax":0,"edenSpaceCommitted":67108864,"survivorCommitted":11010048,"oldGenMax":2863661056,"edenSpaceInit":67108864},"jvm-thread":{"threadCount":57,"daemonThreadCount":21,"totalStartedThreadCount":85,"deadLockedThreadCount":0},"jvm-thread-pool":{"event-bus":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"conn-worker":{"poolSize(workThread)":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":16},"mq":{"corePoolSize":1,"poolSize(workThread)":0,"maxPoolSize":4,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"ack-timer":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":2147483647,"queueSize(blockedTask)":0,"activeCount(workingThread)":0}},"jvm-info":{"totalMemory":"178m","load":3.38134765625,"pid":"8706","freeMemory":"93m","maxMemory":"3641m"}},"timestamp":1535504629786}
+2018-08-29 09:03:50.095 - [lion-gateway-work-5-13] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0x04af385b, L:/192.168.1.12:3001 ! R:/192.168.1.12:57922], context=, status=2, lastReadTime=1535497390423, lastWriteTime=0]
+2018-08-29 09:03:50.194 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x100003d9da70049 has expired
+2018-08-29 09:03:50.194 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 09:03:50.194 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 09:03:50.194 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 09:03:50.194 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 09:03:50.194 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: LOST
+2018-08-29 09:03:50.194 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=LOST, isConnected=false
+2018-08-29 09:03:50.195 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_LOST, data=null}
+2018-08-29 09:03:50.195 - [main-EventThread] WARN  - org.apache.curator.ConnectionState - Session expired event received
+2018-08-29 09:03:50.195 - [main-EventThread] DEBUG - org.apache.curator.ConnectionState - reset
+2018-08-29 09:03:50.195 - [main-EventThread] DEBUG - org.apache.zookeeper.ZooKeeper - Close called on already closed client
+2018-08-29 09:03:50.195 - [main-EventThread] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@4f74980d
+2018-08-29 09:03:50.196 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 09:03:50.196 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 09:03:50.201 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: RECONNECTED
+2018-08-29 09:03:50.205 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=RECONNECTED, isConnected=true
+2018-08-29 09:03:50.206 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2018-08-29 09:03:50.206 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.206 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.206 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.206 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs], context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.207 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=8,8,1535380638185,1535380638185,0,57,0,0,0,1,236
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.207 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6ece000d-7975-4586-8a94-7340c3458067], context=null, stat=8,8,1535380638185,1535380638185,0,57,0,0,0,1,236
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.207 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=null, context=null, stat=236,236,1535504630204,1535504630204,0,0,0,72057858675900492,35,0,236
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.207 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=236,236,1535504630204,1535504630204,0,0,0,72057858675900492,35,0,236
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-08-29 09:03:50.208 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=[], context=null, stat=236,236,1535504630204,1535504630204,0,0,0,72057858675900492,35,0,236
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.211 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=5,5,1535380638175,1535380638175,0,57,0,0,0,1,235
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.211 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[7eacaec6-2ead-439d-a7b7-88218d09676e], context=null, stat=5,5,1535380638175,1535380638175,0,57,0,0,0,1,235
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.211 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=null, context=null, stat=235,235,1535504630202,1535504630202,0,0,0,72057858675900492,56,0,235
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.211 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=235,235,1535504630202,1535504630202,0,0,0,72057858675900492,56,0,235
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-08-29 09:03:50.211 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=[], context=null, stat=235,235,1535504630202,1535504630202,0,0,0,72057858675900492,56,0,235
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 09:03:50.211 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-08-29 09:03:50.220 - [lion-gateway-work-5-14] INFO  - lion.conn.log - client connected conn=[id: 0xc1ff7c9c, L:/192.168.1.12:3001 - R:/192.168.1.12:57972]
+2018-08-29 09:03:50.448 - [lion-gateway-work-5-12] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0x435687fd, L:/192.168.1.12:3001 ! R:/192.168.1.12:57921], context=, status=2, lastReadTime=1535497390419, lastWriteTime=0]
+2018-08-29 09:03:50.452 - [lion-gateway-work-5-15] INFO  - lion.conn.log - client connected conn=[id: 0xde6eb44e, L:/192.168.1.12:3001 - R:/192.168.1.12:57975]
+2018-08-29 10:46:52.196 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 6148200ms for sessionid 0x100003d9da7004c
+2018-08-29 10:46:52.485 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 10:46:52.486 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 10:46:52.486 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 10:46:52.486 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 10:46:52.487 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: SUSPENDED
+2018-08-29 10:46:52.488 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=SUSPENDED, isConnected=false
+2018-08-29 10:46:52.489 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2018-08-29 10:46:52.490 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 10:46:52.490 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 10:46:53.910 - [lion-gateway-work-5-15] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0xde6eb44e, L:/192.168.1.12:3001 ! R:/192.168.1.12:57975], context=, status=2, lastReadTime=1535504630453, lastWriteTime=0]
+2018-08-29 10:46:53.961 - [lion-gateway-work-5-14] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0xc1ff7c9c, L:/192.168.1.12:3001 ! R:/192.168.1.12:57972], context=, status=2, lastReadTime=1535504630222, lastWriteTime=0]
+2018-08-29 10:46:54.295 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x100003d9da7004c has expired
+2018-08-29 10:46:54.295 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 10:46:54.295 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 10:46:54.295 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 10:46:54.295 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 10:46:54.295 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: LOST
+2018-08-29 10:46:54.295 - [main-EventThread] WARN  - org.apache.curator.ConnectionState - Session expired event received
+2018-08-29 10:46:54.296 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=LOST, isConnected=false
+2018-08-29 10:46:54.296 - [main-EventThread] DEBUG - org.apache.curator.ConnectionState - reset
+2018-08-29 10:46:54.296 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_LOST, data=null}
+2018-08-29 10:46:54.296 - [main-EventThread] DEBUG - org.apache.zookeeper.ZooKeeper - Close called on already closed client
+2018-08-29 10:46:54.296 - [main-EventThread] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@4f74980d
+2018-08-29 10:46:54.319 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 10:46:54.319 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 10:46:54.322 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: RECONNECTED
+2018-08-29 10:46:54.327 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=RECONNECTED, isConnected=true
+2018-08-29 10:46:54.329 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2018-08-29 10:46:54.328 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.329 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.329 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.329 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs], context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.330 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=8,8,1535380638185,1535380638185,0,59,0,0,0,1,246
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.330 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6ece000d-7975-4586-8a94-7340c3458067], context=null, stat=8,8,1535380638185,1535380638185,0,59,0,0,0,1,246
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.330 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=null, context=null, stat=246,246,1535510814327,1535510814327,0,0,0,72057858675900496,35,0,246
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.330 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=246,246,1535510814327,1535510814327,0,0,0,72057858675900496,35,0,246
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-08-29 10:46:54.330 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=[], context=null, stat=246,246,1535510814327,1535510814327,0,0,0,72057858675900496,35,0,246
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.330 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=5,5,1535380638175,1535380638175,0,59,0,0,0,1,245
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.330 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[7eacaec6-2ead-439d-a7b7-88218d09676e], context=null, stat=5,5,1535380638175,1535380638175,0,59,0,0,0,1,245
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.330 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=null, context=null, stat=245,245,1535510814325,1535510814325,0,0,0,72057858675900496,56,0,245
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.330 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=245,245,1535510814325,1535510814325,0,0,0,72057858675900496,56,0,245
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-08-29 10:46:54.331 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=[], context=null, stat=245,245,1535510814325,1535510814325,0,0,0,72057858675900496,56,0,245
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 10:46:54.331 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-08-29 10:46:54.335 - [lion-gateway-work-5-16] INFO  - lion.conn.log - client connected conn=[id: 0xc8cb1043, L:/192.168.1.12:3001 - R:/192.168.1.12:58032]
+2018-08-29 10:46:54.343 - [lion-gateway-work-5-1] INFO  - lion.conn.log - client connected conn=[id: 0x9d1fa20f, L:/192.168.1.12:3001 - R:/192.168.1.12:58034]
+2018-08-29 10:47:10.049 - [lion-t-2-monitor] INFO  - lion.monitor.log - {"results":{"jvm-gc":{"fullGcCollectionCount":1,"yongGcCollectionTime":45,"spanYongGcCollectionTime":0,"spanFullGcCollectionCount":0,"yongGcCollectionCount":3,"spanYongGcCollectionCount":0,"fullGcCollectionTime":30,"spanFullGcCollectionTime":0},"jvm-memory":{"heapMemoryMax":3817865216,"survivorMax":11010048,"survivorInit":11010048,"heapMemoryUsed":90662328,"oldGenInit":179306496,"nonHeapMemoryCommitted":36306944,"heapMemoryCommitted":187170816,"edenSpaceUsed":44119376,"nonHeapMemoryUsed":35362512,"oldGenUsed":42454752,"permGenCommitted":0,"oldGenCommitted":109051904,"heapMemoryInit":268435456,"survivorUsed":4088200,"permGenInit":0,"permGenUsed":0,"edenSpaceMax":1409286144,"nonHeapMemoryMax":-1,"nonHeapMemoryInit":2555904,"permGenMax":0,"edenSpaceCommitted":67108864,"survivorCommitted":11010048,"oldGenMax":2863661056,"edenSpaceInit":67108864},"jvm-thread":{"threadCount":57,"daemonThreadCount":21,"totalStartedThreadCount":89,"deadLockedThreadCount":0},"jvm-thread-pool":{"event-bus":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"conn-worker":{"poolSize(workThread)":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":16},"mq":{"corePoolSize":1,"poolSize(workThread)":0,"maxPoolSize":4,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"ack-timer":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":2147483647,"queueSize(blockedTask)":0,"activeCount(workingThread)":0}},"jvm-info":{"totalMemory":"178m","load":2.646484375,"pid":"8706","freeMemory":"92m","maxMemory":"3641m"}},"timestamp":1535510830035}
+2018-08-29 22:28:07.208 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 42027544ms for sessionid 0x100003d9da70050
+2018-08-29 22:28:07.585 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 22:28:07.586 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 22:28:07.586 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 22:28:07.586 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 22:28:07.587 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: SUSPENDED
+2018-08-29 22:28:07.594 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 22:28:07.594 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-08-29 22:28:07.595 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=SUSPENDED, isConnected=false
+2018-08-29 22:28:07.595 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2018-08-29 22:28:08.726 - [lion-gateway-work-5-16] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0xc8cb1043, L:/192.168.1.12:3001 ! R:/192.168.1.12:58032], context=, status=2, lastReadTime=1535510814335, lastWriteTime=0]
+2018-08-29 22:28:09.410 - [lion-gateway-work-5-1] INFO  - lion.conn.log - client disconnected conn=[channel=[id: 0x9d1fa20f, L:/192.168.1.12:3001 ! R:/192.168.1.12:58034], context=, status=2, lastReadTime=1535510814343, lastWriteTime=0]
+2018-08-29 22:28:09.579 - [main-SendThread(127.0.0.1:2181)] WARN  - org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x100003d9da70050 has expired
+2018-08-29 22:28:09.579 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 22:28:09.580 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 22:28:09.580 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 22:28:09.580 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 22:28:09.580 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: LOST
+2018-08-29 22:28:09.580 - [main-EventThread] WARN  - org.apache.curator.ConnectionState - Session expired event received
+2018-08-29 22:28:09.580 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=LOST, isConnected=false
+2018-08-29 22:28:09.580 - [main-EventThread] DEBUG - org.apache.curator.ConnectionState - reset
+2018-08-29 22:28:09.580 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_LOST, data=null}
+2018-08-29 22:28:09.580 - [main-EventThread] DEBUG - org.apache.zookeeper.ZooKeeper - Close called on already closed client
+2018-08-29 22:28:09.580 - [main-EventThread] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@4f74980d
+2018-08-29 22:28:09.582 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 22:28:09.582 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-08-29 22:28:09.589 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: RECONNECTED
+2018-08-29 22:28:09.628 - [Curator-ConnectionStateManager-0] WARN  - lion.srd.log - zk connection state changed new state=RECONNECTED, isConnected=true
+2018-08-29 22:28:09.629 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2018-08-29 22:28:09.630 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.630 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.631 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.631 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs], context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.631 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=8,8,1535380638185,1535380638185,0,61,0,0,0,1,257
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.631 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6ece000d-7975-4586-8a94-7340c3458067], context=null, stat=8,8,1535380638185,1535380638185,0,61,0,0,0,1,257
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.631 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=null, context=null, stat=257,257,1535552889627,1535552889627,0,0,0,72057858675900501,35,0,257
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.632 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=257,257,1535552889627,1535552889627,0,0,0,72057858675900501,35,0,257
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-08-29 22:28:09.632 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=[], context=null, stat=257,257,1535552889627,1535552889627,0,0,0,72057858675900501,35,0,257
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.633 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=5,5,1535380638175,1535380638175,0,61,0,0,0,1,256
+, data=[], watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.633 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[7eacaec6-2ead-439d-a7b7-88218d09676e], context=null, stat=5,5,1535380638175,1535380638175,0,61,0,0,0,1,256
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.633 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=null, context=null, stat=256,256,1535552889593,1535552889593,0,0,0,72057858675900501,56,0,256
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.634 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_UPDATED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=256,256,1535552889593,1535552889593,0,0,0,72057858675900501,56,0,256
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-08-29 22:28:09.634 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=[], context=null, stat=256,256,1535552889593,1535552889593,0,0,0,72057858675900501,56,0,256
+, data=null, watchedEvent=null, aclList=null}
+2018-08-29 22:28:09.634 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-08-29 22:28:09.643 - [lion-gateway-work-5-2] INFO  - lion.conn.log - client connected conn=[id: 0x84698de6, L:/192.168.1.12:3001 - R:/192.168.1.12:58098]
+2018-08-29 22:28:09.645 - [lion-gateway-work-5-3] INFO  - lion.conn.log - client connected conn=[id: 0x2aa7bbde, L:/192.168.1.12:3001 - R:/192.168.1.12:58099]
+2018-08-29 22:28:28.330 - [lion-t-2-monitor] INFO  - lion.monitor.log - {"results":{"jvm-gc":{"fullGcCollectionCount":1,"yongGcCollectionTime":45,"spanYongGcCollectionTime":0,"spanFullGcCollectionCount":0,"yongGcCollectionCount":3,"spanYongGcCollectionCount":0,"fullGcCollectionTime":30,"spanFullGcCollectionTime":0},"jvm-memory":{"heapMemoryMax":3817865216,"survivorMax":11010048,"survivorInit":11010048,"heapMemoryUsed":91720024,"oldGenInit":179306496,"nonHeapMemoryCommitted":36372480,"heapMemoryCommitted":187170816,"edenSpaceUsed":45177072,"nonHeapMemoryUsed":35395216,"oldGenUsed":42454752,"permGenCommitted":0,"oldGenCommitted":109051904,"heapMemoryInit":268435456,"survivorUsed":4088200,"permGenInit":0,"permGenUsed":0,"edenSpaceMax":1409286144,"nonHeapMemoryMax":-1,"nonHeapMemoryInit":2555904,"permGenMax":0,"edenSpaceCommitted":67108864,"survivorCommitted":11010048,"oldGenMax":2863661056,"edenSpaceInit":67108864},"jvm-thread":{"threadCount":57,"daemonThreadCount":21,"totalStartedThreadCount":91,"deadLockedThreadCount":0},"jvm-thread-pool":{"event-bus":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"conn-worker":{"poolSize(workThread)":16,"queueSize(blockedTask)":0,"activeCount(workingThread)":16},"mq":{"corePoolSize":1,"poolSize(workThread)":0,"maxPoolSize":4,"queueSize(blockedTask)":0,"activeCount(workingThread)":0},"ack-timer":{"corePoolSize":1,"poolSize(workThread)":1,"maxPoolSize":2147483647,"queueSize(blockedTask)":0,"activeCount(workingThread)":0}},"jvm-info":{"totalMemory":"178m","load":2.52685546875,"pid":"8706","freeMemory":"91m","maxMemory":"3641m"}},"timestamp":1535552908317}

@@ -1,0 +1,91 @@
+2018-09-05 19:07:06.800 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-05 19:07:06.803 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-05 19:07:06.803 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-05 19:07:06.804 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-05 19:07:06.804 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2018-09-05 19:07:06.804 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-05 19:07:06.804 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-05 19:07:07.334 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:None path:null
+2018-09-05 19:07:07.334 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:None path:null
+2018-09-05 19:07:07.334 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:None path:null
+2018-09-05 19:07:07.334 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:None path:null
+2018-09-05 19:07:07.334 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:None path:null
+2018-09-05 19:07:07.334 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:None path:null
+2018-09-05 19:07:07.335 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeDeleted path:/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e
+2018-09-05 19:07:07.335 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=393,393,1536069588204,1536069588204,0,0,0,72057858675900543,56,0,393
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-05 19:07:07.336 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/cs
+2018-09-05 19:07:07.336 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[7eacaec6-2ead-439d-a7b7-88218d09676e], context=null, stat=5,5,1535380638175,1535380638175,0,99,0,0,0,1,397
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.337 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=null, context=null, stat=397,397,1536145627336,1536145627336,0,0,0,72057858675900543,56,0,397
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.337 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=397,397,1536145627336,1536145627336,0,0,0,72057858675900543,56,0,397
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-05 19:07:07.337 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=[], context=null, stat=397,397,1536145627336,1536145627336,0,0,0,72057858675900543,56,0,397
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.338 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeDeleted path:/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067
+2018-09-05 19:07:07.338 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=395,395,1536069588207,1536069588207,0,0,0,72057858675900543,35,0,395
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-05 19:07:07.338 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/gs
+2018-09-05 19:07:07.340 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2018-09-05 19:07:07.340 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6ece000d-7975-4586-8a94-7340c3458067], context=null, stat=8,8,1535380638185,1535380638185,0,99,0,0,0,1,399
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=[], watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2,2,1535380637842,1535380637842,0,1,0,0,0,1,4
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=[], watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs], context=null, stat=4,4,1535380638170,1535380638170,0,2,0,0,0,2,8
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=8,8,1535380638185,1535380638185,0,99,0,0,0,1,399
+, data=[], watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6ece000d-7975-4586-8a94-7340c3458067], context=null, stat=8,8,1535380638185,1535380638185,0,99,0,0,0,1,399
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=5,5,1535380638175,1535380638175,0,99,0,0,0,1,397
+, data=[], watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[7eacaec6-2ead-439d-a7b7-88218d09676e], context=null, stat=5,5,1535380638175,1535380638175,0,99,0,0,0,1,397
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=null, context=null, stat=397,397,1536145627336,1536145627336,0,0,0,72057858675900543,56,0,397
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', name='null', children=[], context=null, stat=397,397,1536145627336,1536145627336,0,0,0,72057858675900543,56,0,397
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.352 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=null, context=null, stat=399,399,1536145627338,1536145627338,0,0,0,72057858675900543,35,0,399
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-09-05 19:07:07.353 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=399,399,1536145627338,1536145627338,0,0,0,72057858675900543,35,0,399
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-05 19:07:07.353 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', name='null', children=[], context=null, stat=399,399,1536145627338,1536145627338,0,0,0,72057858675900543,35,0,399
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 22:50:15.501 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeDeleted path:/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067
+2018-09-05 22:50:15.502 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/gs/6ece000d-7975-4586-8a94-7340c3458067', stat=399,399,1536145627338,1536145627338,0,0,0,72057858675900543,35,0,399
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-05 22:50:15.502 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/gs
+2018-09-05 22:50:15.502 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[], context=null, stat=8,8,1535380638185,1535380638185,0,100,0,0,0,0,400
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-12] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-12
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-8] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-8
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-16] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-16
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-9] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-9
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-11] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-11
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-13] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-13
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-14] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-14
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-1] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-1
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-15] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-15
+2018-09-05 22:50:17.610 - [lion-gateway-work-5-10] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-10
+2018-09-05 22:50:19.718 - [lion-gateway-work-5-5] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-5
+2018-09-05 22:50:19.718 - [lion-gateway-work-5-6] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-6
+2018-09-05 22:50:19.718 - [lion-gateway-work-5-7] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-7
+2018-09-05 22:50:19.718 - [lion-gateway-work-5-4] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-4
+2018-09-05 22:50:19.718 - [lion-gateway-work-5-2] DEBUG - io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lion-gateway-work-5-2
+2018-09-05 22:50:19.718 - [lion-gateway-work-5-3] DEBUG - io.netty.buffer.PoolThreadCache - Freed 3 thread-local buffer(s) from thread: lion-gateway-work-5-3
+2018-09-05 22:50:19.720 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeDeleted path:/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e
+2018-09-05 22:50:19.721 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/cs/7eacaec6-2ead-439d-a7b7-88218d09676e', stat=397,397,1536145627336,1536145627336,0,0,0,72057858675900543,56,0,397
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 49, 50, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-05 22:50:19.721 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/cs
+2018-09-05 22:50:19.721 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[], context=null, stat=5,5,1535380638175,1535380638175,0,100,0,0,0,0,401
+, data=null, watchedEvent=null, aclList=null}
+2018-09-05 22:50:21.825 - [lion-conn-work-3-1] DEBUG - io.netty.buffer.PoolThreadCache - Freed 31 thread-local buffer(s) from thread: lion-conn-work-3-1
+2018-09-05 22:50:22.426 - [lion-shutdown-hook-thread] DEBUG - o.a.c.f.imps.CuratorFrameworkImpl - Closing
+2018-09-05 22:50:22.428 - [lion-shutdown-hook-thread] DEBUG - o.a.curator.CuratorZookeeperClient - Closing
+2018-09-05 22:50:22.428 - [lion-shutdown-hook-thread] DEBUG - org.apache.curator.ConnectionState - Closing
+2018-09-05 22:50:22.430 - [lion-shutdown-hook-thread] DEBUG - org.apache.zookeeper.ZooKeeper - Closing session: 0x100003d9da7007f

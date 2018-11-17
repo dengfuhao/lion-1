@@ -1,0 +1,19 @@
+
+package com.gupao.edu.vip.lion.register.zk;
+
+import com.gupao.edu.vip.lion.api.spi.Spi;
+import com.gupao.edu.vip.lion.api.spi.common.ServiceRegistryFactory;
+import com.gupao.edu.vip.lion.api.srd.ServiceRegistry;
+
+/**
+ * Created by ohun on 2016/12/27.
+ *
+ * @author ohun@live.cn (夜色)
+ */
+@Spi(order = 1)
+public final class ZKRegistryFactory implements ServiceRegistryFactory {
+    @Override
+    public ServiceRegistry get() {
+        return ZKServiceRegistryAndDiscovery.I;
+    }
+}

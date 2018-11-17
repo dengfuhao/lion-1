@@ -20,10 +20,10 @@ MP_BIN="${BASH_SOURCE-$0}"
 MP_BIN="$(dirname "${MP_BIN}")"
 MP_BIN_DIR="$(cd "${MP_BIN}"; pwd)"
 
-if [ -e "$MP_BIN/../libexec/env-mp.sh" ]; then
-  . "$MP_BIN_DIR/../libexec/env-mp.sh"
+if [ -e "$MP_BIN/../libexec/env-lion.sh" ]; then
+  . "$MP_BIN_DIR/../libexec/env-lion.sh"
 else
-  . "$MP_BIN_DIR/env-mp.sh"
+  . "$MP_BIN_DIR/env-lion.sh"
 fi
 
 if [ $1 -gt 1024 ] ;then
@@ -34,4 +34,4 @@ else
     keySize = 1024
 fi
 
-"$JAVA" -cp "$CLASSPATH" com.mpush.tools.crypto.RSAUtils $keySize
+"$JAVA" -cp "$CLASSPATH" com.qxwz.hermes.lion.tools.crypto.RSAUtils $keySize
