@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lion.iml" filepath="$PROJECT_DIR$/lion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-api/lion-api.iml" filepath="$PROJECT_DIR$/lion-api/lion-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-boot/lion-boot.iml" filepath="$PROJECT_DIR$/lion-boot/lion-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-cache/lion-cache.iml" filepath="$PROJECT_DIR$/lion-cache/lion-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-client/lion-client.iml" filepath="$PROJECT_DIR$/lion-client/lion-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-common/lion-common.iml" filepath="$PROJECT_DIR$/lion-common/lion-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-core/lion-core.iml" filepath="$PROJECT_DIR$/lion-core/lion-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-monitor/lion-monitor.iml" filepath="$PROJECT_DIR$/lion-monitor/lion-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-network/lion-network.iml" filepath="$PROJECT_DIR$/lion-network/lion-network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-registion/lion-registion.iml" filepath="$PROJECT_DIR$/lion-registion/lion-registion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-test/lion-test.iml" filepath="$PROJECT_DIR$/lion-test/lion-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lion-tools/lion-tools.iml" filepath="$PROJECT_DIR$/lion-tools/lion-tools.iml" />
+    </modules>
+  </component>
+</project>

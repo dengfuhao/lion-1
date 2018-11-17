@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lion-api" />
+        <module name="lion-boot" />
+        <module name="lion-cache" />
+        <module name="lion-client" />
+        <module name="lion-common" />
+        <module name="lion-core" />
+        <module name="lion-monitor" />
+        <module name="lion-netty" />
+        <module name="lion-network" />
+        <module name="lion-registion" />
+        <module name="lion-test" />
+        <module name="lion-tools" />
+        <module name="lion-zk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lion" target="1.8" />
+      <module name="lion-api" target="1.8" />
+      <module name="lion-boot" target="1.8" />
+      <module name="lion-cache" target="1.8" />
+      <module name="lion-client" target="1.8" />
+      <module name="lion-common" target="1.8" />
+      <module name="lion-core" target="1.8" />
+      <module name="lion-monitor" target="1.8" />
+      <module name="lion-netty" target="1.8" />
+      <module name="lion-network" target="1.8" />
+      <module name="lion-registion" target="1.8" />
+      <module name="lion-test" target="1.8" />
+      <module name="lion-tools" target="1.8" />
+      <module name="lion-zk" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
